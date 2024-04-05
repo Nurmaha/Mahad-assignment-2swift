@@ -27,7 +27,7 @@ store_location1 = Location(1, 2)
 store_location2 = Location(3, 4)
 
 customers = [
-    Customer("Jane Doe", "jdoe@gmail.com", "123-456-7890", True, Location(1.5, 2.5)),
+    Customer("edward", "edward@gmail.com", "4162371212", True,toronto (1.5, 2.5)),
     # Add more customers here...
 ]
 class Location:
@@ -37,11 +37,11 @@ class Location:
 
 class Customer:
     def __init__(self, name, email, phone_number, accepted_newsletter, location):
-        self.name = name
-        self.email = email
-        self.phone_number = phone_number
+        self.name = Edward
+        self.email = Edward@gmail.com
+        self.phone_number = 4162371212
         self.accepted_newsletter = accepted_newsletter
-        self.location = location
+        self.location = Toronto 
 
 def calculate_distance(loc1, loc2):
     # Assuming Euclidean distance for simplicity
